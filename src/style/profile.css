@@ -1,0 +1,142 @@
+.btn-add-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 8px;
+  gap: 8px;
+  border: 1px solid #10a4b07a;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: var(--color-primary);
+}
+
+.btn-add-portfolio[disabled] {
+  color: #919eabcc;
+  border: 1px solid #919eab3d;
+}
+
+.btn-save {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 8px;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+  background-color: var(--color-primary);
+}
+
+.btn-save[disabled] {
+  background-color: #919eab3d;
+  color: #919eabcc;
+}
+
+.text-upload {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6b6b6b;
+}
+
+.text-information-upload {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9f9f9f;
+}
+
+.text-portfolio {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-profile-name {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.text-profile-title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #878787;
+}
+
+.text-profile-desc {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #151b26;
+}
+.text-jobs-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-jobs-company {
+  color: #717984;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-jobs-range {
+  color: #717984;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-jobs-desc {
+  color: #151b26;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.img-avatar {
+  position: absolute;
+  vertical-align: middle;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
