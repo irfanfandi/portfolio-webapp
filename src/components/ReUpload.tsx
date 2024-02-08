@@ -48,8 +48,8 @@ const ReUpload = forwardRef<UploadHandle, Props>((props, ref) => {
   const uploadImage = async (event: any) => {
     const file = event.target?.files[0] || null;
 
-    if (file?.size > 1000000) {
-      alert("Maaf, file tidak boleh lebih dari 1MB");
+    if (file?.size > 5000000) {
+      alert("Maaf, file tidak boleh lebih dari 5MB");
       return;
     }
     if (file) {
@@ -110,7 +110,7 @@ const ReUpload = forwardRef<UploadHandle, Props>((props, ref) => {
                 Support formats : png, jpg, jpeg, mp4.
               </p>
               <p className="underline text-information-upload">
-                Max size : 1MB
+                Max size : 5MB
               </p>
             </>
           )}
