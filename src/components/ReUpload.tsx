@@ -71,7 +71,7 @@ const ReUpload = forwardRef<UploadHandle, Props>((props, ref) => {
 
   return (
     <div className="flex items-center justify-center w-full">
-      <label className="flex flex-col items-center justify-center w-full h-64 rounded-lg cursor-pointer bg-[#EBEBEB] dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+      <label className="flex flex-col items-center justify-center w-full h-64 rounded-lg cursor-pointer bg-[#EBEBEB] hover:bg-gray-100">
         <div className="flex flex-col items-center justify-center pt-5 pb-6">
           <svg
             width="25"
